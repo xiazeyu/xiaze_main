@@ -51,13 +51,5 @@ module.exports = {
         openAnalyzer: false,
       },
     },
-    {
-      resolve: 'gatsby-plugin-offline',
-      options: {
-         workboxConfig: {
-            globPatterns: ['**/icon-path*']
-         }
-      }
-   },
   ].filter(Boolean),
 }
